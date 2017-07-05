@@ -27,6 +27,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 gem 'devise'
 gem 'rails_12factor'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 
 
 group :development, :test do
