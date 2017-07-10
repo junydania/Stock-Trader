@@ -29,6 +29,7 @@ gem 'devise'
 gem 'rails_12factor'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'stock_quote'
 
 
 group :development, :test do

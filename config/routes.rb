@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   root controller: :welcome, action: :index
 
+  get 'my_portfolio', to: "users#my_portfolio"
+
 end
