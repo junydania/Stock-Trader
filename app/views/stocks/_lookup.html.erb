@@ -1,5 +1,5 @@
 <div id="stock-lookup">
-<h3>Search for Stocks</h3>
+<h3>Check Stocks</h3>
 <%= form_tag search_stocks_path, remote: true, method: :get, id: 'stock-lookup-form' do %>
   <div class = "form-group row no-padding text-center col-md-12">
     <div class="col-md-10">
@@ -7,8 +7,8 @@
                          class: 'form-control search-box input-lg' %>
     </div>
     <div class="col-md-2">
-      <%= button_tag(type: :submit, class: "btn btn-lg btn-success") do %>
-        <i class="fa fa-search"></i> Look up a stock
+      <%= button_tag(type: :submit, class: "btn btn-lg btn-danger") do %>
+        <i class="fa fa-search"></i> Check out stock
       <% end %>
     </div>
   </div>
